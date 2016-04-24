@@ -1,0 +1,92 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Chris/Documents/CompE 475/Homework 3/MicroprocessorComponents/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Chris/Documents/CompE 475/Homework 3/MicroprocessorComponents/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: tb_Controller.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" into library work
+Parsing module <Controller>.
+Parsing module <MainDecoder>.
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 23. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 24. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 25. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 26. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 27. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 28. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 32. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 32. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 32. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 32. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 33. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 33. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 33. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 33. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 34. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 34. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 34. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 34. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+Parsing module <ALUDecoder>.
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 136. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 137. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 138. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 142. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 143. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 144. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 145. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 146. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 150. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 151. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 152. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 153. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 154. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 155. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 3\MicroprocessorComponents\Controller.v" Line 156. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+Parsing module <tb_Controller>.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.52 secs
+ 
+--> 
+
+Total memory usage is 178984 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
